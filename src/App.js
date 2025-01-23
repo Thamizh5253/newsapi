@@ -11,7 +11,7 @@ const App = () => {
     try {
       setLoading(true);
       const response = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=us&apiKey=bf05e43637114d8887b06bdd5cbc40e3'
+        `https://newsapi.org/v2/top-headlines?country=us&apiKey=bf05e43637114d8887b06bdd5cbc40e3`
       );
       if (!response.ok) {
         throw new Error("Failed to fetch news");
